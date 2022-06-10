@@ -15,7 +15,7 @@
 		입력하세요
 	</p>
 	
-	<form action="" method ="get">
+	<form action="/phonebook3/pbc/write" method ="get">
 		이름(name) <input type ="text" name ="name" value=""> <br>
 		핸드폰(hp) <input type ="text" name ="hp" value=""> <br>
 		회사(company) <input type ="text" name ="company" value=""><br>
