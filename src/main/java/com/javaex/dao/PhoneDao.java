@@ -112,6 +112,7 @@ public class PhoneDao {
 			query += " 		  hp,";
 			query += " 		  company";
 			query += " from person ";
+			query += " order by person_id asc ";
 
 			// 바인딩
 			pstmt = conn.prepareStatement(query);
